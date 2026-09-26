@@ -15,13 +15,13 @@ int main(){
             std::cout<<"the sum is: "<< a+b<<'\n';
             break;
             case '*':
-            std::cout<<"the sum is: "<< a*b<<'\n';
+            std::cout<<"the product is: "<< a*b<<'\n';
             break;
             case '-':
-            std::cout<<"the sum is: "<< a-b<<'\n';
+            std::cout<<"the difference is: "<< a-b<<'\n';
             break;
             case '/':
-            std::cout<<"the sum is: "<< a/b<<'\n';
+            std::cout<<"the quotient is: "<< a/b<<'\n';
             break;
             defaut:
             std::cout<<"invalid operation"<<'\n';

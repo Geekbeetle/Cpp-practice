@@ -32,7 +32,20 @@ void print_arr(std::vector<int> arr){
 
 
 int main(){
-    std::vector<int> arr={3,5,82,1,2,8,9};
+    std::vector<int> arr;
+            int a=0;
+    while(true){
+        int b;
+        std::cout<<"enter no"<<a+1<<" 0 to quit\n";
+        std::cin>>b;
+        if(b==0 || b==0){
+            break;
+        }
+        else{
+            arr.push_back(b);
+            a=a+1;
+        }
+    }
     std::cout<<"---------before---------\n";
     print_arr(arr);
     selection_sort(arr);

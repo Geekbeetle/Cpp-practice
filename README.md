@@ -1,0 +1,3 @@
+this repo contains files which i made while learning c++(cpp) language and basic sorting and searching algorithms,
+there are some basic files like variable type conversion in case i forget something i would require it.
+there are some working programs like calculator age meter and grader tooo check out them too.......
